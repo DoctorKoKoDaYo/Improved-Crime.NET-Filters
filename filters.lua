@@ -39,6 +39,15 @@ Hooks:Add("LocalizationManagerPostInit", "advanced_filters_loc", function(...)
 			menu_equal = "等于",
 			menu_equalto_or_greater_than = "不小于",
 			menu_equalto_less_than = "不大于",
+					
+			menu_plan_exclude_stealth = "隐藏潜入大厅",
+			menu_plan_exclude_loud = "隐藏强袭大厅",
+			cn_menu_no_lobbies = "无可用服务器",
+			cn_menu_lobbies_amount = "当前在线服务器: $amount;",
+			menu_searching_by_nickname = "按昵称搜索",
+			menu_nickname_input = "昵称",
+			menu_matchmake_input = "按匹配密钥搜索",
+			menu_reset_key = "重置匹配密钥",
 		})
 	end
 end)
